@@ -1,0 +1,21 @@
+{
+  "name": "gamelauncherserverexpress",
+  "version": "1.0.0",
+  "description": "A server for robinMania GameLauncher that handles updates and patches",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "express-zip": "^3.0.0",
+    "jszip": "^3.10.0",
+    "xxhash": "^0.3.0",
+    "xxhash-wasm": "^1.0.1",
+    "xxhashjs": "^0.2.2"
+  }
+}
